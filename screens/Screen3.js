@@ -75,7 +75,7 @@ function Screen3({ navigation }) {
       })}
       
       <View style={{flex:6, alignItems:'center', marginTop:'28px'}}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>{navigation.navigate('Screen4')}}>
           <View style={styles.btn}>
             <Text style={styles.textBtn}>GO TO CART</Text>
           </View>
